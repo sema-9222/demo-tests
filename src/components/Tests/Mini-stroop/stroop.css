@@ -1,0 +1,110 @@
+.test {
+  height: 80vh;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  transition: all 0.2s;
+  text-align: justify;
+}
+
+.head {
+  font-size: 60px;
+}
+
+.intro {
+  margin: 20% 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.btn {
+  background: linear-gradient(white, white) padding-box,
+    linear-gradient(to right, rgb(34, 34, 178), darkorchid, rgb(161, 38, 153))
+      border-box;
+  border-radius: 50em;
+  border: 2px solid transparent;
+  color: black;
+  background-color: white;
+  font-size: 15px;
+  padding: 1% 2%;
+  margin: 20px 10px;
+  width: 18%;
+}
+
+.btn1 {
+  width: 100%;
+  padding: 4% 6%;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.test-part {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btns {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.table {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.btn-home {
+  margin-left: 5%;
+}
+
+.live-score {
+  width: 48%;
+  margin-right: 5%;
+}
+
+.live {
+  width: 60%;
+  display: flex;
+  margin: 5%;
+}
+
+.cont {
+  display: flex;
+  width: 15%;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.test-part1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 90vh;
+}
+
+.live1 {
+  margin: 5%;
+}

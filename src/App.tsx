@@ -1,24 +1,17 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Navigaton } from "./components/Nav/Navigation";
+import { Routes, Route } from "react-router-dom";
+import { Memory } from "./components/Tests/Memory/memory";
+import { Stroop } from "./components/Tests/Mini-stroop/stroop";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Routes>
+        <Route path="/" element={<Navigaton />} />
+        <Route path="/memory" element={<Memory />} />
+        <Route path="/stroop" element={<Stroop />} />
+      </Routes>
     </div>
   );
 }
