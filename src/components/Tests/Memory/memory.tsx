@@ -19,10 +19,6 @@ export function Memory() {
   const [scene, setScene] = useState(Scene.Intros);
   const [oldItems, setOldItems] = useState<string[]>([]);
   const newWords: string[] = [];
-
-  // Work on random index
-
-  // random indexes are drawn from words array and push to newWords
   const numRandom = 30;
   for (let i = 0; i < numRandom; i++) {
     const randomIndex = getRandomIndex(words.length);

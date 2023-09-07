@@ -1,5 +1,5 @@
 import "./stroop.css";
-import { newColor, newName } from "./name";
+import { newColor, newName } from "./randomcolor";
 import { useEffect, useState } from "react";
 import check from "./check.png";
 import cross from "./cross.png";
@@ -19,7 +19,6 @@ export function Stroop() {
   const [scene, setScene] = useState(Scene.Instruction);
   const [time, setTime] = useState(0);
   const [running, setRunning] = useState(false);
-
   const [congruent, setCongruent] = useState<any[]>([]);
   const [incongruent, setIncongruent] = useState<number[]>([]);
 
